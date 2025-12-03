@@ -5,7 +5,5 @@ function onLoginSubmit(e){
     e.preventDefault()
     const username = loginInput.value;
     loginForm.classList.add("hidden");
-    console.log(username);
-    
 }
 loginForm.addEventListener("submit", onLoginSubmit)
