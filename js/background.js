@@ -1,13 +1,6 @@
-const images = [
-    "img1.jpg",
-    "img2.jpg",
-    "img3.jpg",
-    "img4.jpg",
-];
-
+const images = ["img1.jpg","img2.jpg","img3.jpg","img4.jpg",];
 const chosenImg = images[Math.floor(Math.random()*images.length)];
-console.log(chosenImg);
-const bgImg = document.createElement("img")
-console.log(bgImg);
-bgImg.src = `img/${chosenImg}`
-document.body.appendChild(bgImg)
+
+const bgImg = document.createElement("img"); // 요소 생성
+bgImg.src = `img/${chosenImg}`; // 속성 추가 
+document.body.appendChild(bgImg); // 요소를 HTML(DOM)에 추가 (body 안에 bgImg를 자식 요소로 추가)
