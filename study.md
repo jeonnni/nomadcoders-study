@@ -16,3 +16,11 @@
 #### console.dir() → 객체 구조 출력 (속성 확인용)
 
 ---
+
+## localStorage 저장 : JSON.stringify(), JSON.parse()
+#### localStorage는 문자열만 저장할 수 있기 때문에 JavaScript 배열이나 객체를 저장하려면
+#### JSON.stringify()로 JSON 문자열로 변환하고, 불러올 때는 JSON.parse()로 다시 배열/객체로 변환해야 한다.
+#### 배열이나 데이터를 문자열로 변환하는 함수
+```JSON.stringify()```
+#### 문자열을 다시 원래 데이터 형태로 되돌려주는 함수
+```JSON.parse()```
