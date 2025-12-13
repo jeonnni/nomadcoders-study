@@ -25,7 +25,6 @@ function deleteToDo(e){
         item.id !== li.id
     })
     saveToDos()
-
 }
 
 
@@ -70,7 +69,7 @@ todoForm.addEventListener("submit",handleTodoSubmit);
 const savedToDos = localStorage.getItem(TODOS_KEY);
 console.log(savedToDos);
 if(!(savedToDos == null)){
-    // JSON.parse()를 통해 string data type -> array 로 변환 (예: "[a,b,c,d]" (string) => [a, b, c, d] (array))
+    // JSON.parse()를 통해 string data type "[a,b,c,d]" -> array [a, b, c, d] 로 변환
     const parsedToDos = JSON.parse(savedToDos);
     toDos =  parsedToDos;
     // array의 item들에 대해 한 개의 function만 실행할 수 있게 해줌
