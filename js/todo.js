@@ -16,14 +16,13 @@ function saveToDos(){
 // 삭제
 function deleteToDo(e){
     const li = e.composedPath()[0].parentElement;
-    console.log(li.id); // 버튼 id
     li.remove()
     
-    
     toDos.filter((item)=>{
-        console.log(item);
+        console.log(item.id != li.id);
         item.id !== li.id
     })
+    
     saveToDos()
 }
 
@@ -67,7 +66,7 @@ todoForm.addEventListener("submit",handleTodoSubmit);
 
 // localStorage → 배열 복원 → 화면 렌더
 const savedToDos = localStorage.getItem(TODOS_KEY);
-console.log(savedToDos);
+// console.log(savedToDos);
 if(!(savedToDos == null)){
     // JSON.parse()를 통해 string data type "[a,b,c,d]" -> array [a, b, c, d] 로 변환
     const parsedToDos = JSON.parse(savedToDos);
