@@ -1,3 +1,5 @@
+// 시계
+
 const clock = document.getElementById("clock")
 
 function format(date){

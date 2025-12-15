@@ -1,3 +1,5 @@
+// 명언
+
 const quotes = [
     {
         quote: "삶이 있는 한 희망은 있다.",

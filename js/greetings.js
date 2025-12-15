@@ -1,3 +1,5 @@
+// 로그인
+
 const loginForm = document.getElementById("login-form")
 const loginInput = document.querySelector("#login-form input")
 const greeting = document.getElementById("greeting")
