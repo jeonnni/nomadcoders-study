@@ -24,3 +24,7 @@ pnpm-debug.log*
 
 # TypeScript
 *.tsbuildinfo
+
+
+# API Key
+js/config.js
