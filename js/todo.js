@@ -6,7 +6,7 @@ const TODOS_KEY = "todos";
 let toDos = [];
 
 
-// 저장 : To-Do-List 작성시 localStorage 에 저장 됨. 
+// 저장 localStorage
 function saveToDos(){
     // string data type 으로 저장 됨. (예: "[a,b,c,d,e]")
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos))
@@ -16,14 +16,9 @@ function saveToDos(){
 // 삭제
 function deleteToDo(e){
     const li = e.composedPath()[0].parentElement;
-    li.remove()
-    
-    toDos.filter((item)=>{
-        console.log(item.id != li.id);
-        item.id !== li.id
-    })
-    
-    saveToDos()
+    li.remove();
+    toDos = toDos.filter((item)=> item.id !== Number(li.id));
+    saveToDos();
 }
 
 
@@ -49,7 +44,7 @@ function paintToDo(newTodo){
 function handleTodoSubmit(e){
     e.preventDefault();
 
-    // const newTodo = todoInput.value;
+    const newTodo = todoInput.value;
     todoInput.value = "";
     
     const newToDoObj = {
