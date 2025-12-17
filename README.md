@@ -28,3 +28,11 @@ Vanilla JavaScript로 구현한 Momentum 클론 프로젝트입니다.
 - 강의 외 기능 추가 (작성 시간 표시, 로그아웃(LocalStorage.removeItem), UI 커스터마이징 등)
 - Google Fonts (Space Grotesk)
 - 기존 예제를 확장하며 실전 프로젝트 경험
+
+---
+
+## 📷 Preview
+<img width="1918" height="926" alt="스크린샷 2025-12-18 오전 4 36 55" src="https://github.com/user-attachments/assets/0e05ca96-305f-46fa-9699-e12ed6ab7fb9" />
+<img width="1917" height="926" alt="스크린샷 2025-12-18 오전 4 36 41" src="https://github.com/user-attachments/assets/c3bfab04-b4ee-42e1-abd6-59c9752cf35c" />
+<img width="1918" height="927" alt="스크린샷 2025-12-18 오전 4 35 52" src="https://github.com/user-attachments/assets/a2252555-25fd-44fc-9994-4c18a95eb718" />
+
