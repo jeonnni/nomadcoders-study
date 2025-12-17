@@ -2,44 +2,44 @@
 
 const quotes = [
     {
-        quote: "삶이 있는 한 희망은 있다.",
-        author: "키케로"
+        quote: "You will face many defeats in life, but never let yourself be defeated.",
+        author: "Maya Angelou"
     },
     {
-        quote: "성공은 준비와 기회의 만남이다.",
-        author: "세네카"
+        quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+        author: "Nelson Mandela"
     },
     {
-        quote: "작은 습관이 큰 변화를 만든다.",
-        author: "제임스 클리어"
+        quote: "Do not be afraid to give up the good to go for the great",
+        author: "John D. Rockefeller"
     },
     {
-        quote: "오늘 할 수 있는 일을 내일로 미루지 마라.",
-        author: "벤자민 프랭클린"
+        quote: "Life is either a daring adventure or nothing at all.",
+        author: "Helen Keller"
     },
     {
-        quote: "노력하는 사람에게 불가능이란 없다.",
-        author: "알렉산더 대왕"
+        quote: "Despite the forecast, live like it’s spring.",
+        author: "Lilly Pulitzer"
     },
     {
-        quote: "행복은 방향이지 장소가 아니다.",
-        author: "시드니 J. 해리스"
+        quote: "I find that the harder I work, the more luck I seem to have.",
+        author: "Thomas Jefferson"
     },
     {
-        quote: "우리가 반복적으로 하는 것이 곧 우리 자신이다.",
-        author: "아리스토텔레스"
+        quote: "Don’t be afraid to give up the good to go for the great.",
+        author: "John D. Rockefeller"
     },
     {
-        quote: "포기하지 마라. 위대한 일은 시간이 걸린다.",
-        author: "익명"
+        quote: "All progress takes place outside the comfort zone.",
+        author: "Michael John Bobak"
     },
     {
-        quote: "생각하는 대로 살지 않으면 사는 대로 생각하게 된다.",
-        author: "폴 발레리"
+        quote: "I never dreamed about success, I worked for it.",
+        author: "Estee Lauder"
     },
     {
-        quote: "할 수 있다고 믿으면 이미 반은 이룬 것이다.",
-        author: "시어도어 루스벨트"
+        quote: "Do not try to be original, just try to be good.",
+        author: "Paul Rand"
     }
 ];
 
